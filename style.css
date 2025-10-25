@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(230, 230, 230);
+    color: rgb(15, 15, 15);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    line-height: 13vh;
+    padding-right: 15vw;
+    padding-left: 15vw;
+}
+
+main{
+    padding-right: 15vw;
+    padding-left: 15vw;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 25px;
+    padding-bottom: 6px;
+}
+
+h5{
+    color: rgb(255, 196, 0);
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+img{
+    width: 22.65vw;
+    height: 22.65vw;
+}
+
+footer{
+    background-color: rgb(15, 15, 15);
+}
+
+.cabecalho{
+    background-color: rgb(15, 15, 15);
+    color: rgb(230,230,230);
+    width: 100%;
+    height: 12vw;
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.nav a{
+    position: relative;
+    color: rgb(230,230,230);
+    text-decoration: none;
+    padding-top: 25px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    transition: .5s ease;
+}
+
+.nav a:hover{
+    color: rgb(255, 196, 0);
+}
+
+.nav a::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: rgb(255, 196, 0);
+    transition: width 0.3s ease;
+}
+
+.nav a:hover::after{
+    width: 100%;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 17.5vw;
+    font-size: 20px;
+    height: 10vw;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(220, 220, 220);
+    border: 3px solid rgb(200, 200, 200);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.sobre_txt{
+    padding: 30px;
+}
+
+.sobre_img{
+    max-width: 35vw;
+}
+
+.sobre-imagem{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.servico{
+    padding-top: 25px;
+}
+
+.ser_carrosel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ser_img{
+    width: 20vw;
+    height: 13vw;
+}
+
+.ser_txt{
+    padding: 13px;
+}
+
+.ser_1 {
+    overflow: hidden;
+    width: 20vw;
+    height: 23vw;
+    border: 3px solid rgb(200, 200, 200);
+    border-radius: 15px;
+    background-color: rgb(220, 220, 220);
+}
+
+.ser_2 {
+    overflow: hidden;
+    width: 20vw;
+    height: 23vw;
+    border: 3px solid rgb(194, 194, 194);
+    border-radius: 15px;
+    background-color: rgb(220, 220, 220);
+}
+
+.ser_3 {
+    overflow: hidden;
+    width: 20vw;
+    height: 23vw;
+    border: 3px solid rgb(194, 194, 194);
+    border-radius: 15px;
+    background-color: rgb(220, 220, 220);
+}
+
+.galeria{
+    padding-top: 25px;
+}
+
+.gal_imagens{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5vw;
+    justify-content: center;
+}
+
+.contato{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    color: rgb(230, 230, 230);
+}
+
+#title{
+    white-space: nowrap;
+}
