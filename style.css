@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* 
+  CORES            HEX
+"Branco"         #e6e6e6
+"Cinza Claro"    #dcdcdc
+"Cinza Escuro"   #1d1d1d
+"Preto"          #090909
+"Amarelo"        #ffc400
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +21,7 @@ body{
     font-weight: 400;
     display: flex;
     flex-direction: column;
+    color: #e6e6e6;
 }
 
 .header-back{
@@ -24,11 +34,11 @@ body{
 .header{
     display: flex;
     padding-top: 2vw;
-    padding-right: 5vw;
-    padding-left: 5vw;
+    padding-right: 7vw;
+    padding-left: 7vw;
     gap: 20px;
     flex-wrap: nowrap;
-    color: white;
+    color: #e6e6e6;
 }
 
 .header-txt{
@@ -36,9 +46,8 @@ body{
 }
 
 header{
-    font-size: 2rem;
+    font-size: 2.9rem;
     font-weight: 500;
-    background-color: blueviolet;
 }
 
 .header-nav{
@@ -46,9 +55,8 @@ header{
     align-items: center;
     justify-content: end;
     gap: 3vw;
-    width: 60vw;
+    width: 58vw;
     height: 3vw;
-    background-color: rgb(14, 24, 21);
 }
 
 .header-nav a{
@@ -63,7 +71,7 @@ header{
 }
 
 .header-nav a:hover{
-    color: rgb(255, 196, 0);
+    color: #ffc400;
 }
 
 .header-nav a::after{
@@ -82,22 +90,50 @@ header{
 }
 
 .um{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3vw;
+    padding-right: 7vw;
+    padding-left: 7vw;
     width: 100vw;
     height: 45rem;
+    background-color: #090909;
+}
 
-    background-color: blue;
+.um-quadrado{
+    width: 20vw;
+    height: 20vw;
+    background-image: url(.imagens/vermelho.jpeg);
+    background-size: cover;
+    border: solid #e6e6e6 1px;
 }
 
 .dois{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    padding-right: 7vw;
+    padding-left: 7vw;
     width: 100vw;
-    height: 40vw;
+    height: auto;
 
-    background-color: rgb(4, 255, 0);
+    background-color: #1d1d1d;
+}
+
+.dois-quadrado{
+    width: 27vw;
+    height: 20vw;
+    background-image: url(.imagens/vermelho.jpeg);
+    background-size: cover;
+    border: solid #e6e6e6 1px;
 }
 
 .tres{
     width: 100vw;
     height: 20vw;
 
-    background-color: rgb(255, 0, 191);
+    background-color: #090909;
 }
