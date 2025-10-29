@@ -33,6 +33,7 @@ body{
 
 .header{
     display: flex;
+    justify-content: space-between;
     padding-top: 2vw;
     padding-right: 7vw;
     padding-left: 7vw;
@@ -42,12 +43,14 @@ body{
 }
 
 .header-txt{
-    width: 25vw;
+    min-width: 25vw;
+    max-width: auto;
 }
 
 header{
     font-size: 2.9rem;
     font-weight: 500;
+    text-wrap: nowrap;
 }
 
 .header-nav{
@@ -55,8 +58,8 @@ header{
     align-items: center;
     justify-content: end;
     gap: 3vw;
-    width: 58vw;
-    height: 3vw;
+    width: auto;
+    height: 4rem;
 }
 
 .header-nav a{
@@ -90,26 +93,46 @@ header{
 }
 
 .um{
+    width: 100vw;
+    height: auto;
+    background-color: #090909;
+}
+
+.um-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 3vw;
     padding-right: 7vw;
     padding-left: 7vw;
-    width: 100vw;
-    height: 45rem;
-    background-color: #090909;
 }
 
 .um-quadrado{
+    display: flex;
+    align-items: flex-end;
+    padding: 1.5vw;
+    font-size: 2rem;
     width: 20vw;
     height: 20vw;
     background-image: url(.imagens/vermelho.jpeg);
     background-size: cover;
     border: solid #e6e6e6 1px;
 }
+.um-txt{
+    padding-top: 3vw;
+    padding-right: 7vw;
+    padding-left: 7vw;
+    padding-bottom: 3vw;
+    font-size: 1.3rem;
+}
 
 .dois{
+    width: 100vw;
+    height: auto;
+    background-color: #1d1d1d;
+}
+
+.dois-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -117,13 +140,13 @@ header{
     padding-bottom: 5vw;
     padding-right: 7vw;
     padding-left: 7vw;
-    width: 100vw;
-    height: auto;
-
-    background-color: #1d1d1d;
 }
 
 .dois-quadrado{
+    display: flex;
+    align-items: flex-end;
+    padding: 1.5vw;
+    font-size: 2rem;
     width: 27vw;
     height: 20vw;
     background-image: url(.imagens/vermelho.jpeg);
