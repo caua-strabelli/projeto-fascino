@@ -135,6 +135,8 @@ header{
 .dois-container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
     justify-content: space-between;
     padding-top: 5vw;
     padding-bottom: 5vw;
@@ -142,14 +144,74 @@ header{
     padding-left: 7vw;
 }
 
-.dois-quadrado{
+.dois-quadrado-1{
     display: flex;
     align-items: flex-end;
     padding: 1.5vw;
     font-size: 2rem;
     width: 27vw;
     height: 20vw;
-    background-image: url(.imagens/vermelho.jpeg);
+    background-image: url(.imagem/um.jpg);
+    background-size: cover;
+    border: solid #e6e6e6 1px;
+}
+
+.dois-quadrado-2{
+    display: flex;
+    align-items: flex-end;
+    padding: 1.5vw;
+    font-size: 2rem;
+    width: 27vw;
+    height: 20vw;
+    background-image: url(.imagem/dois.jpg);
+    background-size: cover;
+    border: solid #e6e6e6 1px;
+}
+
+.dois-quadrado-3{
+    display: flex;
+    align-items: flex-end;
+    padding: 1.5vw;
+    font-size: 2rem;
+    width: 27vw;
+    height: 20vw;
+    background-image: url(.imagem/tres.jpg);
+    background-size: cover;
+    border: solid #e6e6e6 1px;
+}
+
+.dois-quadrado-4{
+    display: flex;
+    align-items: flex-end;
+    padding: 1.5vw;
+    font-size: 2rem;
+    width: 27vw;
+    height: 20vw;
+    background-image: url(.imagem/quatro.jpg);
+    background-size: cover;
+    border: solid #e6e6e6 1px;
+}
+
+.dois-quadrado-5{
+    display: flex;
+    align-items: flex-end;
+    padding: 1.5vw;
+    font-size: 2rem;
+    width: 27vw;
+    height: 20vw;
+    background-image: url(.imagem/cinco.jpg);
+    background-size: cover;
+    border: solid #e6e6e6 1px;
+}
+
+.dois-quadrado-6{
+    display: flex;
+    align-items: flex-end;
+    padding: 1.5vw;
+    font-size: 2rem;
+    width: 27vw;
+    height: 20vw;
+    background-image: url(.imagem/seis.jpg);
     background-size: cover;
     border: solid #e6e6e6 1px;
 }
