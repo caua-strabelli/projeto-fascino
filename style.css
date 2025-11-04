@@ -13,7 +13,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 body{
@@ -22,10 +21,11 @@ body{
     display: flex;
     flex-direction: column;
     color: #e6e6e6;
+    overflow-x: hidden;
 }
 
 .header-back{
-    background-image: url(.imagem/nove-h.png);
+    background-image: url(.imagem/0h.png    );
     background-size: cover;
     width: 100vw;
     height: 45vw;
@@ -101,10 +101,11 @@ header{
 .um-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 3vw;
     padding-right: 7vw;
-    padding-left: 7vw;
+    padding-left: 15vw;
+    padding-bottom: 1vw;
 }
 
 .um-quadrado{
@@ -112,18 +113,59 @@ header{
     align-items: flex-end;
     padding: 1.5vw;
     font-size: 2rem;
-    width: 20vw;
-    height: 20vw;
-    background-image: url(.imagens/vermelho.jpeg);
+    font-weight: 500;
+    width: 30vw;
+    height: 25vw;
+    background-image: url(.imagem/11.jpeg);
     background-size: cover;
-    border: solid #e6e6e6 1px;
+    color: #ffc400;
+    border: solid #ffc400 1.5px;
 }
+
 .um-txt{
+    width: 70vw;
+    height: 25vw;;
     padding-top: 3vw;
-    padding-right: 7vw;
-    padding-left: 7vw;
+    padding-right: 15vw;
+    padding-left: 5vw;
+    padding-bottom: 7vw;
+    font-size: 1.7rem;
+}
+
+p {
+    text-indent: 3rem;
+}
+
+.um-container-{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3vw;
+    padding-right: 15vw;
+    padding-left: 15vw;
     padding-bottom: 3vw;
-    font-size: 1.3rem;
+}
+
+.um-txt-{
+    width: 70vw;
+    height: 25vw;
+    padding-top: 2.5vw;
+    padding-right: 5vw;
+    padding-bottom: 7vw;
+    font-size: 1.7rem;
+}
+
+.um-quadrado-{
+    display: flex;
+    align-items: flex-end;
+    padding: 1.5vw;
+    font-size: 2rem;
+    font-weight: 500;
+    width: 55vw;
+    height: 25vw;
+    background-image: url(.imagem/12.jpeg);
+    background-size: cover;
+    color: #ffc400;
+    border: solid #ffc400 1.5px;
 }
 
 .dois{
@@ -150,10 +192,10 @@ header{
     padding: 1.5vw;
     font-size: 2rem;
     width: 27vw;
-    height: 20vw;
-    background-image: url(.imagem/um.jpg);
+    height: 27vw;
+    background-image: url(.imagem/1.jpg);
     background-size: cover;
-    border: solid #e6e6e6 1px;
+    border: solid #ffc400 1px;
 }
 
 .dois-quadrado-2{
@@ -162,10 +204,10 @@ header{
     padding: 1.5vw;
     font-size: 2rem;
     width: 27vw;
-    height: 20vw;
-    background-image: url(.imagem/dois.jpg);
+    height: 27vw;
+    background-image: url(.imagem/2.jpg);
     background-size: cover;
-    border: solid #e6e6e6 1px;
+    border: solid #ffc400 1px;
 }
 
 .dois-quadrado-3{
@@ -174,10 +216,82 @@ header{
     padding: 1.5vw;
     font-size: 2rem;
     width: 27vw;
-    height: 20vw;
-    background-image: url(.imagem/tres.jpg);
+    height: 27vw;
+    background-image: url(.imagem/3.jpg);
     background-size: cover;
-    border: solid #e6e6e6 1px;
+    border: solid #ffc400 1px;
+}
+
+.dois-quadrado-4{
+    display: flex;
+    align-items: flex-end;
+    padding: 1.5vw;
+    font-size: 2rem;
+    width: 27vw;
+    height: 27vw;
+    background-image: url(.imagem/4.jpg);
+    background-size: cover;
+    border: solid #ffc400 1px;
+}
+
+.dois-quadrado-5{
+    display: flex;
+    align-items: flex-end;
+    padding: 1.5vw;
+    font-size: 2rem;
+    width: 27vw;
+    height: 27vw;
+    background-image: url(.imagem/5.jpeg);
+    background-size: cover;
+    border: solid #ffc400 1px;
+}
+
+.dois-quadrado-6{
+    display: flex;
+    align-items: flex-end;
+    padding: 1.5vw;
+    font-size: 2rem;
+    width: 27vw;
+    height: 27vw;
+    background-image: url(.imagem/6.jpg);
+    background-size: cover;
+    border: solid #ffc400 1px;
+}
+
+.dois-quadrado-7{
+    display: flex;
+    align-items: flex-end;
+    padding: 1.5vw;
+    font-size: 2rem;
+    width: 27vw;
+    height: 27vw;
+    background-image: url(.imagem/7.jpg);
+    background-size: cover;
+    border: solid #ffc400 1px;
+}
+
+.dois-quadrado-8{
+    display: flex;
+    align-items: flex-end;
+    padding: 1.5vw;
+    font-size: 2rem;
+    width: 27vw;
+    height: 27vw;
+    background-image: url(.imagem/8.jpg);
+    background-size: cover;
+    border: solid #ffc400 1px;
+}
+
+.dois-quadrado-9{
+    display: flex;
+    align-items: flex-end;
+    padding: 1.5vw;
+    font-size: 2rem;
+    width: 27vw;
+    height: 27vw;
+    background-image: url(.imagem/9.jpg);
+    background-size: cover;
+    border: solid #ffc400 1px;
 }
 
 .tres{
