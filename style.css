@@ -180,42 +180,6 @@ header{
     border: solid #e6e6e6 1px;
 }
 
-.dois-quadrado-4{
-    display: flex;
-    align-items: flex-end;
-    padding: 1.5vw;
-    font-size: 2rem;
-    width: 27vw;
-    height: 20vw;
-    background-image: url(.imagem/quatro.jpg);
-    background-size: cover;
-    border: solid #e6e6e6 1px;
-}
-
-.dois-quadrado-5{
-    display: flex;
-    align-items: flex-end;
-    padding: 1.5vw;
-    font-size: 2rem;
-    width: 27vw;
-    height: 20vw;
-    background-image: url(.imagem/cinco.jpg);
-    background-size: cover;
-    border: solid #e6e6e6 1px;
-}
-
-.dois-quadrado-6{
-    display: flex;
-    align-items: flex-end;
-    padding: 1.5vw;
-    font-size: 2rem;
-    width: 27vw;
-    height: 20vw;
-    background-image: url(.imagem/seis.jpg);
-    background-size: cover;
-    border: solid #e6e6e6 1px;
-}
-
 .tres{
     width: 100vw;
     height: 20vw;
