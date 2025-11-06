@@ -308,7 +308,7 @@ p {
     border: solid #ffc400 1px;
 }
 
-.tres{
+.tres-back{
     width: 100vw;
     height: auto;
 
@@ -316,11 +316,25 @@ p {
 }
 
 pre{
-    padding-right: 15vw;
-    padding-left: 15vw;
     font-size: 1vw;
 }
 
 .tres-{
     padding-top: 1vw;
+}
+
+.tres-container{
+    display: flex;
+    padding-right: 15vw;
+    padding-left: 15vw;
+}
+
+.tres-location{
+    width: 30vw;
+    background-color: rgb(152, 152, 40);
+}
+
+.tres-txt{
+    width: auto;
+    background-color: rgb(33, 57, 49);
 }
