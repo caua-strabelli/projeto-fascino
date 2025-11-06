@@ -98,11 +98,25 @@ header{
     background-color: #090909;
 }
 
+.nav{
+    padding-top: 1.5vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    font-size: 1.5rem;
+    color: #ffc400;
+}
+
+hr{
+    height: 1.5px;
+    border: 0;
+    background-color: #ffc400;
+}
+
 .um-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 3vw;
+    padding-top: 2vw;
     padding-right: 7vw;
     padding-left: 15vw;
     padding-bottom: 1vw;
@@ -180,10 +194,10 @@ p {
     flex-wrap: wrap;
     gap: 30px;
     justify-content: space-between;
-    padding-top: 5vw;
+    padding-top: 1.5vw;
     padding-bottom: 5vw;
-    padding-right: 10vw;
-    padding-left: 10vw;
+    padding-right: 13vw;
+    padding-left: 13vw;
 }
 
 .dois-quadrado-1{
@@ -296,7 +310,17 @@ p {
 
 .tres{
     width: 100vw;
-    height: 20vw;
+    height: auto;
 
     background-color: #090909;
+}
+
+pre{
+    padding-right: 15vw;
+    padding-left: 15vw;
+    font-size: 1vw;
+}
+
+.tres-{
+    padding-top: 1vw;
 }
