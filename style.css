@@ -18,14 +18,13 @@
 body{
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    display: flex;
-    flex-direction: column;
     color: #e6e6e6;
     overflow-x: hidden;
+    background-color: #090909;
 }
 
 .header-back{
-    background-image: url(.imagem/0h.png    );
+    background-image: url(.imagem/0h.png);
     background-size: cover;
     width: 100vw;
     height: 45vw;
@@ -33,23 +32,22 @@ body{
 
 .header{
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    padding-top: 2vw;
-    padding-right: 10vw;
-    padding-left: 10vw;
+    padding-right: 8vw;
+    padding-left: 8vw;
     flex-wrap: nowrap;
     color: #e6e6e6;
 }
 
 .header-txt{
-    min-width: 25vw;
-    max-width: auto;
-}
-
-header{
-    font-size: 3vw;
-    font-weight: 500;
-    text-wrap: nowrap;
+    width: 35vw;
+    height: 10vw;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(.imagem/logo.svg);
 }
 
 .header-nav{
@@ -311,7 +309,6 @@ p {
 .tres-back{
     width: 100vw;
     height: auto;
-
     background-color: #090909;
 }
 
@@ -337,4 +334,20 @@ pre{
 .tres-txt{
     width: auto;
     background-color: rgb(33, 57, 49);
+}
+
+/*Pagina 2*/
+
+.quatro-container{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    gap: 3vw;
+    padding-right: 12vw;
+    padding-left: 12vw;
+}
+
+.quatro-{
+    border: solid #ffc400 1px;
 }
