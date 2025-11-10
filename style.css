@@ -90,7 +90,7 @@ body{
     width: 100%;
 }
 
-.um{
+.sobre{
     width: 100vw;
     height: auto;
     background-color: #090909;
@@ -110,7 +110,7 @@ hr{
     background-color: #ffc400;
 }
 
-.um-container{
+.sobre-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -120,7 +120,7 @@ hr{
     padding-bottom: 1vw;
 }
 
-.um-quadrado{
+.sobre-quadrado{
     display: flex;
     align-items: flex-end;
     padding: 1.5vw;
@@ -134,7 +134,7 @@ hr{
     border: solid #ffc400 1.5px;
 }
 
-.um-txt{
+.sobre-txt{
     display: flex;
     align-items: center;
     width: 70vw;
@@ -148,7 +148,7 @@ p {
     text-indent: 3rem;
 }
 
-.um-container-{
+.sobre-container-{
     display: flex;
     flex-direction: row;
     padding-top: 3vw;
@@ -157,7 +157,7 @@ p {
     padding-bottom: 3vw;
 }
 
-.um-txt-{
+.sobre-txt-{
     display: flex;
     align-items: center;
     width: 70vw;
@@ -166,7 +166,7 @@ p {
     font-size: 1.5vw;
 }
 
-.um-quadrado-{
+.sobre-quadrado-{
     display: flex;
     align-items: flex-end;
     padding: 1.5vw;
@@ -180,13 +180,13 @@ p {
     border: solid #ffc400 1.5px;
 }
 
-.dois{
+.galeria{
     width: 100vw;
     height: auto;
     background-color: #1d1d1d;
 }
 
-.dois-container{
+.galeria-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -198,7 +198,7 @@ p {
     padding-left: 13vw;
 }
 
-.dois-quadrado-1{
+.galeria-quadrado-1{
     display: flex;
     align-items: flex-end;
     padding: 1.5vw;
@@ -210,7 +210,7 @@ p {
     border: solid #ffc400 1px;
 }
 
-.dois-quadrado-2{
+.galeria-quadrado-2{
     display: flex;
     align-items: flex-end;
     padding: 1.5vw;
@@ -222,7 +222,7 @@ p {
     border: solid #ffc400 1px;
 }
 
-.dois-quadrado-3{
+.galeria-quadrado-3{
     display: flex;
     align-items: flex-end;
     padding: 1.5vw;
@@ -234,7 +234,7 @@ p {
     border: solid #ffc400 1px;
 }
 
-.dois-quadrado-4{
+.galeria-quadrado-4{
     display: flex;
     align-items: flex-end;
     padding: 1.5vw;
@@ -246,7 +246,7 @@ p {
     border: solid #ffc400 1px;
 }
 
-.dois-quadrado-5{
+.galeria-quadrado-5{
     display: flex;
     align-items: flex-end;
     padding: 1.5vw;
@@ -258,7 +258,7 @@ p {
     border: solid #ffc400 1px;
 }
 
-.dois-quadrado-6{
+.galeria-quadrado-6{
     display: flex;
     align-items: flex-end;
     padding: 1.5vw;
@@ -270,7 +270,7 @@ p {
     border: solid #ffc400 1px;
 }
 
-.dois-quadrado-7{
+.galeria-quadrado-7{
     display: flex;
     align-items: flex-end;
     padding: 1.5vw;
@@ -282,7 +282,7 @@ p {
     border: solid #ffc400 1px;
 }
 
-.dois-quadrado-8{
+.galeria-quadrado-8{
     display: flex;
     align-items: flex-end;
     padding: 1.5vw;
@@ -294,7 +294,7 @@ p {
     border: solid #ffc400 1px;
 }
 
-.dois-quadrado-9{
+.galeria-quadrado-9{
     display: flex;
     align-items: flex-end;
     padding: 1.5vw;
@@ -306,7 +306,7 @@ p {
     border: solid #ffc400 1px;
 }
 
-.tres-back{
+.contato-back{
     width: 100vw;
     height: auto;
     background-color: #090909;
@@ -316,38 +316,53 @@ pre{
     font-size: 1vw;
 }
 
-.tres-{
+.contato-{
     padding-top: 1vw;
 }
 
-.tres-container{
+.contato-container{
     display: flex;
     padding-right: 15vw;
     padding-left: 15vw;
 }
 
-.tres-location{
+.contato-location{
     width: 30vw;
     background-color: rgb(152, 152, 40);
 }
 
-.tres-txt{
+.contato-txt{
     width: auto;
     background-color: rgb(33, 57, 49);
 }
 
-/*Pagina 2*/
-
-.quatro-container{
+.servico-back{
+    background-color: #1d1d1d;
+    width: 100vw;
+    height: auto;
+}
+.servico-container{
     display: flex;
     flex-direction: row;
-    justify-items: center;
-    align-items: center;
+    justify-content: space-between;
     gap: 3vw;
-    padding-right: 12vw;
-    padding-left: 12vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-right: 17vw;
+    padding-left: 17vw;
 }
 
-.quatro-{
-    border: solid #ffc400 1px;
+.servico-{
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+
+h4{
+    font-size: large;
+    padding-bottom: 0.5vw;
+    color: #ffc400;
+    border-bottom: solid #ffc400 3px;
+    width: fit-content;
 }
