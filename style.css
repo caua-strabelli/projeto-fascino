@@ -202,7 +202,6 @@ p {
     display: flex;
     align-items: flex-end;
     padding: 1.5vw;
-    font-size: 2rem;
     width: 23vw;
     height: 23vw;
     background-image: url(.imagem/1.jpg);
@@ -214,7 +213,6 @@ p {
     display: flex;
     align-items: flex-end;
     padding: 1.5vw;
-    font-size: 2rem;
     width: 23vw;
     height: 23vw;
     background-image: url(.imagem/2.jpg);
@@ -226,7 +224,6 @@ p {
     display: flex;
     align-items: flex-end;
     padding: 1.5vw;
-    font-size: 2rem;
     width: 23vw;
     height: 23vw;
     background-image: url(.imagem/3.jpg);
@@ -238,7 +235,6 @@ p {
     display: flex;
     align-items: flex-end;
     padding: 1.5vw;
-    font-size: 2rem;
     width: 23vw;
     height: 23vw;
     background-image: url(.imagem/4.jpg);
@@ -250,7 +246,6 @@ p {
     display: flex;
     align-items: flex-end;
     padding: 1.5vw;
-    font-size: 2rem;
     width: 23vw;
     height: 23vw;
     background-image: url(.imagem/5.jpeg);
@@ -262,7 +257,6 @@ p {
     display: flex;
     align-items: flex-end;
     padding: 1.5vw;
-    font-size: 2rem;
     width: 23vw;
     height: 23vw;
     background-image: url(.imagem/6.jpg);
@@ -274,7 +268,6 @@ p {
     display: flex;
     align-items: flex-end;
     padding: 1.5vw;
-    font-size: 2rem;
     width: 23vw;
     height: 23vw;
     background-image: url(.imagem/7.jpg);
@@ -286,7 +279,6 @@ p {
     display: flex;
     align-items: flex-end;
     padding: 1.5vw;
-    font-size: 2rem;
     width: 23vw;
     height: 23vw;
     background-image: url(.imagem/8.jpg);
@@ -298,7 +290,6 @@ p {
     display: flex;
     align-items: flex-end;
     padding: 1.5vw;
-    font-size: 2rem;
     width: 23vw;
     height: 23vw;
     background-image: url(.imagem/9.jpg);
@@ -316,30 +307,52 @@ pre{
     font-size: 1vw;
 }
 
-.contato-{
+h5{
+    color: #ffc400;
+    font-size: 1.3rem;
     padding-top: 1vw;
+    padding-bottom: 1vw;
 }
 
 .contato-container{
     display: flex;
+    flex-direction: column;
     padding-right: 15vw;
     padding-left: 15vw;
 }
 
+.social-box{
+    display: flex;
+    justify-content: center;
+    padding-top: 1vw;
+}
+
+b{
+    color: #ffc400;
+}
+
+.contato-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 1.5vw;
+}
+
 .contato-location{
-    width: 30vw;
-    background-color: rgb(152, 152, 40);
+    width: 32vw;
+    height: 19vw;
+    overflow: hidden;
 }
 
 .contato-txt{
+    padding-left: 1vw;
     width: auto;
-    background-color: rgb(33, 57, 49);
 }
 
 .servico-back{
     background-color: #1d1d1d;
     width: 100vw;
-    height: auto;
+    height: 30vw;
 }
 .servico-container{
     display: flex;
@@ -365,4 +378,59 @@ h4{
     color: #ffc400;
     border-bottom: solid #ffc400 3px;
     width: fit-content;
+}
+
+.social-menu{
+    display: inline-flex;
+    gap: 2vw;
+    list-style: none;
+}
+
+.social-menu a{
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #1d1d1d;
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    color: #ffc400;
+    transition: transform 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.social-menu a:hover{
+    transform: translate(0, -15%);
+}
+
+.icon-whatsapp a:hover{
+    background-color: #17ad4e;
+    color: #e6e6e6;
+}
+
+.icon-instagram a:hover{
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: #e6e6e6;
+}
+
+.icon-tiktok a:hover{
+    background-color: #000000;
+    color: #e6e6e6;
+}
+
+footer{
+    padding-left: 13vw;
+    padding-right: 13vw;
+    padding-bottom: 1.5vw;
+}
+
+.footer-txt{
+    padding-top: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer{
+    padding-top: 7vw;
 }
