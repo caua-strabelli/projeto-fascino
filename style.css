@@ -16,7 +16,7 @@ body{
 }
 
 .header-back{
-    background-image: url(.imagem/0h.png);
+    background-image: url(./imagem/0h.png);
     background-size: cover;
     background-position: center 0;
     width: 100vw;
@@ -40,7 +40,7 @@ body{
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(.imagem/logo.svg);
+    background-image: url(./imagem/logo.svg);
 }
 
 .header-nav{
@@ -121,7 +121,7 @@ hr{
     font-weight: 500;
     width: 30vw;
     height: 25vw;
-    background-image: url(.imagem/11.jpeg);
+    background-image: url(./imagem/11.jpeg);
     background-size: cover;
     color: #ffc400;
     border: solid #ffc400 1.5px;
@@ -167,7 +167,7 @@ p {
     font-weight: 500;
     width: 55vw;
     height: 25vw;
-    background-image: url(.imagem/12.jpeg);
+    background-image: url(./imagem/12.jpeg);
     background-size: cover;
     color: #ffc400;
     border: solid #ffc400 1.5px;
@@ -197,7 +197,7 @@ p {
     padding: 1.5vw;
     width: 23vw;
     height: 23vw;
-    background-image: url(.imagem/1.jpg);
+    background-image: url(./imagem/1.jpg);
     background-size: cover;
     border: solid #ffc400 1px;
 }
@@ -208,7 +208,7 @@ p {
     padding: 1.5vw;
     width: 23vw;
     height: 23vw;
-    background-image: url(.imagem/2.jpg);
+    background-image: url(./imagem/2.jpg);
     background-size: cover;
     border: solid #ffc400 1px;
 }
@@ -219,7 +219,7 @@ p {
     padding: 1.5vw;
     width: 23vw;
     height: 23vw;
-    background-image: url(.imagem/3.jpg);
+    background-image: url(./imagem/3.jpg);
     background-size: cover;
     border: solid #ffc400 1px;
 }
@@ -230,7 +230,7 @@ p {
     padding: 1.5vw;
     width: 23vw;
     height: 23vw;
-    background-image: url(.imagem/4.jpg);
+    background-image: url(./imagem/4.jpg);
     background-size: cover;
     border: solid #ffc400 1px;
 }
@@ -241,7 +241,7 @@ p {
     padding: 1.5vw;
     width: 23vw;
     height: 23vw;
-    background-image: url(.imagem/5.jpeg);
+    background-image: url(./imagem/5.jpeg);
     background-size: cover;
     border: solid #ffc400 1px;
 }
@@ -252,7 +252,7 @@ p {
     padding: 1.5vw;
     width: 23vw;
     height: 23vw;
-    background-image: url(.imagem/6.jpg);
+    background-image: url(./imagem/6.jpg);
     background-size: cover;
     border: solid #ffc400 1px;
 }
@@ -263,7 +263,7 @@ p {
     padding: 1.5vw;
     width: 23vw;
     height: 23vw;
-    background-image: url(.imagem/7.jpg);
+    background-image: url(./imagem/7.jpg);
     background-size: cover;
     border: solid #ffc400 1px;
 }
@@ -274,7 +274,7 @@ p {
     padding: 1.5vw;
     width: 23vw;
     height: 23vw;
-    background-image: url(.imagem/8.jpg);
+    background-image: url(./imagem/8.jpg);
     background-size: cover;
     border: solid #ffc400 1px;
 }
@@ -285,7 +285,7 @@ p {
     padding: 1.5vw;
     width: 23vw;
     height: 23vw;
-    background-image: url(.imagem/9.jpg);
+    background-image: url(./imagem/9.jpg);
     background-size: cover;
     border: solid #ffc400 1px;
 }
@@ -436,7 +436,7 @@ footer{
 
     .header-back{
         height: 50vh;
-        background-image: url(.imagem/0.png);
+        background-image: url(./imagem/0.png);
         background-position: center center;
     }
 
